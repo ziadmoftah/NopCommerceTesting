@@ -14,14 +14,17 @@ public class BasePage {
     By registerHeaderButton = By.xpath("//a[@class = 'ico-register']") ;
     By loginHeaderButton = By.xpath("//a[@class = 'ico-login']");
 
+
     public BasePage(WebDriver driver) {
         this.driver = driver;
         driverWait = new WebDriverWait(this.driver , DEFAULT_WAIT_TIME_SECONDS) ;
     }
     public void clickOnLoginHeaderButton(){
+        driverWait.until(ExpectedConditions.visibilityOfElementLocated(loginHeaderButton)) ;
         driver.findElement(loginHeaderButton).click();
     }
     public void clickOnRegisterHeaderButton(){
+        driverWait.until(ExpectedConditions.visibilityOfElementLocated(registerHeaderButton)) ;
         driver.findElement(registerHeaderButton).click();
     }
 }

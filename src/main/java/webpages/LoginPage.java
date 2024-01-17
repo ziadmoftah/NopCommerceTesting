@@ -15,13 +15,14 @@ public class LoginPage extends BasePage{
 
     public LoginPage(WebDriver driver) {
         super(driver);
+        waitUntilAllWebElementsAreLocated();
     }
 
     public void waitUntilAllWebElementsAreLocated(){
         driverWait.until(ExpectedConditions.visibilityOfElementLocated(emailInputTextField));
         driverWait.until(ExpectedConditions.visibilityOfElementLocated(passwordInputTextField));
         driverWait.until(ExpectedConditions.visibilityOfElementLocated(rememberMeCheckBox));
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(loginHeaderButton));
+        driverWait.until(ExpectedConditions.visibilityOfElementLocated(logInButton));
     }
     public void enterTextInEmailTextField(String text){
         driver.findElement(emailInputTextField).sendKeys(text);
