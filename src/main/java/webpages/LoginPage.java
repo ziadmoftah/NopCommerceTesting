@@ -24,7 +24,7 @@ public class LoginPage extends BasePage{
     }
     public void enterTextInPasswordTextField(String text){
         driverWait.until(ExpectedConditions.visibilityOfElementLocated(passwordInputTextField)) ;
-        driver.findElement(passwordInputTextField).click();
+        driver.findElement(passwordInputTextField).clear();
         driver.findElement(passwordInputTextField).sendKeys(text);
     }
     public void clickOnLogInButton(){
