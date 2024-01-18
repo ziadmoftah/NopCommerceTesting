@@ -12,7 +12,7 @@ public class LoginPage extends BasePage{
     By passwordInputTextField = By.xpath("//input[@id = 'Password']") ;
     By rememberMeCheckBox = By.xpath("//input[@id = 'RememberMe']") ;
     By logInButton = By.xpath("//button[@class = 'button-1 login-button']") ;
-
+    By emailErrorMessageText = By.xpath("//span[@id = 'Email-error']") ;
     public LoginPage(WebDriver driver) {
         super(driver);
 
@@ -44,5 +44,10 @@ public class LoginPage extends BasePage{
         if ( !checkBox.isSelected() ){
             checkBox.click();
         }
+    }
+
+    public String getEmailErrorMessageText() {
+        driverWait.until(ExpectedConditions.visibilityOfElementLocated(emailErrorMessageText)) ;
+        return driver.findElement(emailErrorMessageText).getText() ;
     }
 }

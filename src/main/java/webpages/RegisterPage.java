@@ -19,6 +19,7 @@ public class RegisterPage extends BasePage{
     By birthYearSelectDropDownList = By.xpath("//select[@name = 'DateOfBirthYear']") ;
     By newsLetterCheckBox = By.xpath("//input [@id = 'Newsletter']") ;
     By companyNameInputTextField = By.xpath("//input [@id = 'Company']") ;
+    By firstNameErrorMessageText = By.xpath("//span[@id = 'FirstName-error']") ;
     public RegisterPage(WebDriver driver) {
         super(driver);
     }
@@ -100,6 +101,10 @@ public class RegisterPage extends BasePage{
         WebElement webElement = driver.findElement(companyNameInputTextField) ;
         webElement.clear();
         webElement.sendKeys(text);
+    }
+    public String getFirstNameErrorMessageText(){
+        driverWait.until(ExpectedConditions.visibilityOfElementLocated(firstNameErrorMessageText)) ;
+        return driver.findElement(firstNameErrorMessageText).getText();
     }
 
 }

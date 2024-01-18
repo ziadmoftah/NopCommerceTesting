@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Create BaseTest Class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
+    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Create RegisterPageTest.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.LoginPageTest.executor": "Run",
+    "TestNG.LoginPageTest.test001.executor": "Run",
+    "TestNG.RegisterPageTest.executor": "Run",
+    "TestNG.RegisterPageTest.test001.executor": "Run",
+    "TestNG.RegisterPageTest.test002.executor": "Run",
     "TestNG.SampleTest.executor": "Run",
     "TestNG.SampleTest.test1.executor": "Run",
     "TestNG.SampleTest.test2.executor": "Run",
@@ -52,7 +58,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SampleTest.test2">
+  <component name="RunManager" selected="TestNG.LoginPageTest">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -64,22 +70,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.test001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopCommerceTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
+      <option name="METHOD_NAME" value="test001" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,11 +82,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.test002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SampleTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
+      <option name="METHOD_NAME" value="test002" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPageTest.test001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerceTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegisterPageTest" />
+      <option name="METHOD_NAME" value="test001" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPageTest.test002" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerceTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegisterPageTest" />
+      <option name="METHOD_NAME" value="test002" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,10 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SampleTest.test2" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.SampleTest" />
-        <item itemvalue="TestNG.SampleTest.test1" />
+        <item itemvalue="TestNG.LoginPageTest.test002" />
+        <item itemvalue="TestNG.LoginPageTest.test001" />
+        <item itemvalue="TestNG.RegisterPageTest.test001" />
+        <item itemvalue="TestNG.RegisterPageTest.test002" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +192,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705586767887</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create RegisterPage and Add sample test for it in SampleTest">
+      <option name="closed" value="true" />
+      <created>1705605640190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705605640190</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create RegisterPageTest.java">
+      <option name="closed" value="true" />
+      <created>1705605683483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705605683483</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +218,24 @@
     <MESSAGE value="Modify explicit waits for class BasePage.java and LoginPage.java" />
     <MESSAGE value="Correct function calling in class LoginPage.java function &quot;enterTextInPasswordTextField&quot;" />
     <MESSAGE value="Create BaseTest Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create BaseTest Class" />
+    <MESSAGE value="Create RegisterPage and Add sample test for it in SampleTest" />
+    <MESSAGE value="Create RegisterPageTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create RegisterPageTest.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SampleTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/RegisterPageTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
