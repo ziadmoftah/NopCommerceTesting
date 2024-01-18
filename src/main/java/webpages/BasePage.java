@@ -20,11 +20,11 @@ public class BasePage {
         driverWait = new WebDriverWait(this.driver , DEFAULT_WAIT_TIME_SECONDS) ;
     }
     public void clickOnLoginHeaderButton(){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(loginHeaderButton)) ;
+        driverWait.until(ExpectedConditions.elementToBeClickable(loginHeaderButton)) ;
         driver.findElement(loginHeaderButton).click();
     }
     public void clickOnRegisterHeaderButton(){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(registerHeaderButton)) ;
+        driverWait.until(ExpectedConditions.elementToBeClickable(registerHeaderButton)) ;
         driver.findElement(registerHeaderButton).click();
     }
 }
