@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Correct function calling in class LoginPage.java function &quot;enterTextInPasswordTextField&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" afterDir="false" />
+    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Create BaseTest Class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
     </list>
@@ -44,13 +44,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LoginPageTest.executor": "Run",
     "TestNG.SampleTest.executor": "Run",
     "TestNG.SampleTest.test1.executor": "Run",
+    "TestNG.SampleTest.test2.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SampleTest">
+  <component name="RunManager" selected="TestNG.SampleTest.test2">
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerceTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,8 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SampleTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerceTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SampleTest.test2" />
+        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.SampleTest" />
         <item itemvalue="TestNG.SampleTest.test1" />
       </list>
@@ -137,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705586273412</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create BaseTest Class">
+      <option name="closed" value="true" />
+      <created>1705586767887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705586767887</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +181,7 @@
     <MESSAGE value="Modify class BasePage and LoginPage by adding explicit waits" />
     <MESSAGE value="Modify explicit waits for class BasePage.java and LoginPage.java" />
     <MESSAGE value="Correct function calling in class LoginPage.java function &quot;enterTextInPasswordTextField&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct function calling in class LoginPage.java function &quot;enterTextInPasswordTextField&quot;" />
+    <MESSAGE value="Create BaseTest Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create BaseTest Class" />
   </component>
 </project>
