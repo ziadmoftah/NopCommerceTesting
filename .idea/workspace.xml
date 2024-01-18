@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Modify class BasePage and LoginPage by adding explicit waits">
+    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Correct function calling in class LoginPage.java function &quot;enterTextInPasswordTextField&quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +37,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.NopCommerceTesting [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.NopCommerceTesting [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.SampleTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.NopCommerceTesting [clean].executor": "Run",
+    "Maven.NopCommerceTesting [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.SampleTest.executor": "Run",
+    "TestNG.SampleTest.test1.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="TestNG.SampleTest">
+    <configuration name="SampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerceTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SampleTest" />
         <item itemvalue="TestNG.SampleTest.test1" />
       </list>
     </recent_temporary>
@@ -107,13 +121,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705507114640</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modify explicit waits for class BasePage.java and LoginPage.java">
+      <option name="closed" value="true" />
+      <created>1705586187191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705586187191</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Correct function calling in class LoginPage.java function &quot;enterTextInPasswordTextField&quot;">
+      <option name="closed" value="true" />
+      <created>1705586273412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705586273412</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project and Add Dependencies" />
     <MESSAGE value="Create webpages package and Add BasePage and LoginPage Classes" />
     <MESSAGE value="Modify class BasePage and LoginPage by adding explicit waits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify class BasePage and LoginPage by adding explicit waits" />
+    <MESSAGE value="Modify explicit waits for class BasePage.java and LoginPage.java" />
+    <MESSAGE value="Correct function calling in class LoginPage.java function &quot;enterTextInPasswordTextField&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct function calling in class LoginPage.java function &quot;enterTextInPasswordTextField&quot;" />
   </component>
 </project>
