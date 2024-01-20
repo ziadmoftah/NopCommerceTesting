@@ -29,80 +29,45 @@ public class RegisterPage extends BasePage{
         BrowserActions.enterTextInTextField(firstNameInputTextField , driver,text);
     }
     public void enterTextInLastNameInputTextField(String text){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(lastNameInputTextField));
-        WebElement webElement = driver.findElement(lastNameInputTextField) ;
-        webElement.clear();
-        webElement.sendKeys(text);
+        BrowserActions.enterTextInTextField(lastNameInputTextField , driver , text);
     }
     public void enterTextInEmailInputTextField(String text){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(emailInputTextField));
-        WebElement webElement = driver.findElement(emailInputTextField) ;
-        webElement.clear();
-        webElement.sendKeys(text);
+        BrowserActions.enterTextInTextField(emailInputTextField , driver , text);
     }
     public void enterTextInPasswordInputTextField(String text){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(passwordInputTextField));
-        WebElement webElement = driver.findElement(passwordInputTextField) ;
-        webElement.clear();
-        webElement.sendKeys(text);
+        BrowserActions.enterTextInTextField(passwordInputTextField , driver , text);
     }
     public void enterTextInConfirmPasswordInputTextField(String text){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(confirmPasswordInputTextField));
-        WebElement webElement = driver.findElement(confirmPasswordInputTextField) ;
-        webElement.clear();
-        webElement.sendKeys(text);
+        BrowserActions.enterTextInTextField(confirmPasswordInputTextField , driver, text);
     }
 
     public void clickOnRegisterButton(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(registerButton)) ;
-        driver.findElement(registerButton).click();
+        BrowserActions.clickOnButton(registerButton, driver);
     }
 
     public void selectGenderRadioButton(int value){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(genderRadioButtons)) ;
-        driver.findElements(genderRadioButtons).get(value).click();
+        BrowserActions.selectRadioButton(genderRadioButtons , driver , value);
     }
     public void unCheckNewsLetterCheckBox(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(newsLetterCheckBox)) ;
-        WebElement webElement = driver.findElement(newsLetterCheckBox) ;
-        if ( webElement.isSelected()){
-            webElement.click();
-        }
+        BrowserActions.unCheckCheckBox(newsLetterCheckBox , driver);
     }
     public void checkNewsLetterCheckBox(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(newsLetterCheckBox)) ;
-        WebElement webElement = driver.findElement(newsLetterCheckBox) ;
-        if ( !webElement.isSelected()){
-            webElement.click();
-        }
+        BrowserActions.checkCheckBox(newsLetterCheckBox, driver);
     }
     public void selectBirthDayFromDropdownList(String day){
-        driverWait.until(ExpectedConditions.elementToBeClickable(birthDaySelectDropdownList)) ;
-        driverWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(birthDaySelectDropdownList)) ;
-        Select select = new Select(driver.findElement(birthDaySelectDropdownList)) ;
-        select.selectByVisibleText(day);
+        BrowserActions.selectFromDropDownList(birthDaySelectDropdownList , driver , day);
     }
     public void selectBirthMonthFromDropdownList(String month){
-        driverWait.until(ExpectedConditions.elementToBeClickable(birthMonthSelectDropDownList)) ;
-        driverWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(birthMonthSelectDropDownList)) ;
-        Select select = new Select(driver.findElement(birthMonthSelectDropDownList)) ;
-        select.selectByVisibleText(month);
+        BrowserActions.selectFromDropDownList(birthMonthSelectDropDownList , driver , month);
     }
     public void selectBirthYearFromDropdownList(String year){
-        driverWait.until(ExpectedConditions.elementToBeClickable(birthYearSelectDropDownList)) ;
-        driverWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(birthYearSelectDropDownList)) ;
-        Select select = new Select(driver.findElement(birthYearSelectDropDownList)) ;
-        select.selectByVisibleText(year);
+        BrowserActions.selectFromDropDownList(birthYearSelectDropDownList , driver , year);
     }
     public void enterTextInCompanyNameInputTextField(String text){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(companyNameInputTextField)) ;
-        WebElement webElement = driver.findElement(companyNameInputTextField) ;
-        webElement.clear();
-        webElement.sendKeys(text);
+        BrowserActions.enterTextInTextField(companyNameInputTextField , driver , text);
     }
     public String getFirstNameErrorMessageText(){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(firstNameErrorMessageText)) ;
-        return driver.findElement(firstNameErrorMessageText).getText();
+        return BrowserActions.getElementText(firstNameErrorMessageText, driver) ;
     }
 
 }

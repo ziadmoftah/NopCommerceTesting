@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Modify LoginPageTest.java and LoginPage.java by adding a new method fillLoginData method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/BrowserActions.java" afterDir="false" />
+    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Add BrowserActions.java class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/BrowserActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/BrowserActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.LoginPageTest.executor": "Run",
     "TestNG.LoginPageTest.test001.executor": "Run",
-    "TestNG.LoginPageTest.test002.executor": "Run",
+    "TestNG.LoginPageTest.test002.executor": "Debug",
     "TestNG.RegisterPageTest.executor": "Run",
     "TestNG.RegisterPageTest.test001.executor": "Run",
     "TestNG.RegisterPageTest.test002.executor": "Run",
@@ -54,10 +54,13 @@
     "TestNG.SampleTest.test1.executor": "Run",
     "TestNG.SampleTest.test2.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginPageTest.test001">
+  <component name="RunManager" selected="TestNG.LoginPageTest.test002">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginPageTest.test001" />
-        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.LoginPageTest.test002" />
+        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.RegisterPageTest.test001" />
+        <item itemvalue="TestNG.LoginPageTest.test001" />
         <item itemvalue="TestNG.RegisterPageTest" />
       </list>
     </recent_temporary>
@@ -246,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705760504624</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add BrowserActions.java class">
+      <option name="closed" value="true" />
+      <created>1705763028625</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705763028625</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,7 +274,8 @@
     <MESSAGE value="Modify BaseTest.java and LoginPageTest.java" />
     <MESSAGE value="Modify RegisterPageTest.java" />
     <MESSAGE value="Modify LoginPageTest.java and LoginPage.java by adding a new method fillLoginData method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify LoginPageTest.java and LoginPage.java by adding a new method fillLoginData method" />
+    <MESSAGE value="Add BrowserActions.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BrowserActions.java class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,14 +285,10 @@
           <line>37</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/RegisterPageTest.java</url>
-          <line>9</line>
-          <properties class="RegisterPageTest" method="test001">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LoginPageTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,7 +10,6 @@ import utilities.BrowserActions;
 
 public class BasePage {
     WebDriver driver ;
-    WebDriverWait driverWait ;
     By registerHeaderButton = By.xpath("//a[@class = 'ico-register']") ;
     By loginHeaderButton = By.xpath("//a[@class = 'ico-login']");
 
@@ -19,7 +18,6 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        this.driverWait=  new WebDriverWait(driver , 10) ;
     }
     public void clickOnLoginHeaderButton(){
         BrowserActions.clickOnButton(loginHeaderButton , driver);
