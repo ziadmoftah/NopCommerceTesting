@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Modify RegisterPageTest.java">
+    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Modify LoginPageTest.java and LoginPage.java by adding a new method fillLoginData method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/BrowserActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginPageTest.test002">
+  <component name="RunManager" selected="TestNG.LoginPageTest.test001">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginPageTest.test002" />
         <item itemvalue="TestNG.LoginPageTest.test001" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.LoginPageTest.test002" />
         <item itemvalue="TestNG.RegisterPageTest.test001" />
         <item itemvalue="TestNG.RegisterPageTest" />
-        <item itemvalue="TestNG.LoginPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705759654127</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modify LoginPageTest.java and LoginPage.java by adding a new method fillLoginData method">
+      <option name="closed" value="true" />
+      <created>1705760504624</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705760504624</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,7 +262,8 @@
     <MESSAGE value="Add two header buttons(Log Out - My Account) to BasePage.java" />
     <MESSAGE value="Modify BaseTest.java and LoginPageTest.java" />
     <MESSAGE value="Modify RegisterPageTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify RegisterPageTest.java" />
+    <MESSAGE value="Modify LoginPageTest.java and LoginPage.java by adding a new method fillLoginData method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify LoginPageTest.java and LoginPage.java by adding a new method fillLoginData method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

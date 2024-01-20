@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import utilities.BrowserActions;
 
 public class RegisterPage extends BasePage{
     private By firstNameInputTextField = By.xpath("//input[@id = 'FirstName']") ;
@@ -25,10 +26,7 @@ public class RegisterPage extends BasePage{
     }
 
     public void enterTextInFirstNameInputTextField(String text){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(firstNameInputTextField));
-        WebElement webElement = driver.findElement(firstNameInputTextField) ;
-        webElement.clear();
-        webElement.sendKeys(text);
+        BrowserActions.enterTextInTextField(firstNameInputTextField , driver,text);
     }
     public void enterTextInLastNameInputTextField(String text){
         driverWait.until(ExpectedConditions.visibilityOfElementLocated(lastNameInputTextField));

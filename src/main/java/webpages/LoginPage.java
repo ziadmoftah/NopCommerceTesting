@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import utilities.BrowserActions;
 
 public class LoginPage extends BasePage{
 
@@ -18,37 +19,23 @@ public class LoginPage extends BasePage{
 
     }
     public void enterTextInEmailTextField(String text){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(emailInputTextField)) ;
-        driver.findElement(emailInputTextField).clear();
-        driver.findElement(emailInputTextField).sendKeys(text);
+        BrowserActions.enterTextInTextField(emailInputTextField,driver,text);
     }
     public void enterTextInPasswordTextField(String text){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(passwordInputTextField)) ;
-        driver.findElement(passwordInputTextField).clear();
-        driver.findElement(passwordInputTextField).sendKeys(text);
+        BrowserActions.enterTextInTextField(passwordInputTextField, driver,text);
     }
     public void clickOnLogInButton(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(logInButton)) ;
-        driver.findElement(logInButton).click();
+        BrowserActions.clickOnButton(logInButton , driver);
     }
     public void unCheckRememberMeCheckBox(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(rememberMeCheckBox)) ;
-        WebElement checkBox =driver.findElement(rememberMeCheckBox) ;
-        if (checkBox.isSelected() ){
-            checkBox.click();
-        }
+        BrowserActions.unCheckCheckBox(rememberMeCheckBox , driver);
     }
     public void checkRememberMeCheckBox(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(rememberMeCheckBox)) ;
-        WebElement checkBox =driver.findElement(rememberMeCheckBox) ;
-        if ( !checkBox.isSelected() ){
-            checkBox.click();
-        }
+        BrowserActions.checkCheckBox(rememberMeCheckBox, driver);
     }
 
     public String getEmailErrorMessageText() {
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(emailErrorMessageText)) ;
-        return driver.findElement(emailErrorMessageText).getText() ;
+        return BrowserActions.getElementText(emailErrorMessageText , driver) ;
     }
     public void fillLogInData(String email , String password , Boolean rememberMe){
         this.enterTextInEmailTextField(email);

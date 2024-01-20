@@ -6,9 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utilities.BrowserActions;
 
 public class BasePage {
-    private static final int DEFAULT_WAIT_TIME_SECONDS = 5 ;
     WebDriver driver ;
     WebDriverWait driverWait ;
     By registerHeaderButton = By.xpath("//a[@class = 'ico-register']") ;
@@ -19,27 +19,22 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        driverWait = new WebDriverWait(this.driver , DEFAULT_WAIT_TIME_SECONDS) ;
+        this.driverWait=  new WebDriverWait(driver , 10) ;
     }
     public void clickOnLoginHeaderButton(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(loginHeaderButton)) ;
-        driver.findElement(loginHeaderButton).click();
+        BrowserActions.clickOnButton(loginHeaderButton , driver);
     }
     public void clickOnRegisterHeaderButton(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(registerHeaderButton)) ;
-        driver.findElement(registerHeaderButton).click();
+        BrowserActions.clickOnButton(registerHeaderButton , driver);
     }
 
     public void clickOnMyAccountHeaderButton(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(myAccountHeaderButton)) ;
-        driver.findElement(myAccountHeaderButton).click();
+        BrowserActions.clickOnButton(myAccountHeaderButton , driver);
     }
     public void clickOnLogOutHeaderButton(){
-        driverWait.until(ExpectedConditions.elementToBeClickable(loginHeaderButton)) ;
-        driver.findElement(logOutHeaderButton).click();
+        BrowserActions.clickOnButton(logOutHeaderButton , driver);
     }
     public Boolean isUserLoggedIn(){
-        driverWait.until(ExpectedConditions.visibilityOfElementLocated(myAccountHeaderButton)) ;
-        return driver.findElement(myAccountHeaderButton).getText().equals("My account")  ;
+        return BrowserActions.getElementText(myAccountHeaderButton , driver).equals("My account")  ;
     }
 }
