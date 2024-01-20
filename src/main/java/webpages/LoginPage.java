@@ -8,11 +8,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class LoginPage extends BasePage{
 
-    By emailInputTextField = By.xpath("//input[@id = 'Email']") ;
-    By passwordInputTextField = By.xpath("//input[@id = 'Password']") ;
-    By rememberMeCheckBox = By.xpath("//input[@id = 'RememberMe']") ;
-    By logInButton = By.xpath("//button[@class = 'button-1 login-button']") ;
-    By emailErrorMessageText = By.xpath("//span[@id = 'Email-error']") ;
+    private By emailInputTextField = By.xpath("//input[@id = 'Email']") ;
+    private By passwordInputTextField = By.xpath("//input[@id = 'Password']") ;
+    private By rememberMeCheckBox = By.xpath("//input[@id = 'RememberMe']") ;
+    private By logInButton = By.xpath("//button[@class = 'button-1 login-button']") ;
+    private By emailErrorMessageText = By.xpath("//span[@id = 'Email-error']") ;
     public LoginPage(WebDriver driver) {
         super(driver);
 

@@ -7,19 +7,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 public class RegisterPage extends BasePage{
-    By firstNameInputTextField = By.xpath("//input[@id = 'FirstName']") ;
-    By lastNameInputTextField = By.xpath("//input[@id = 'LastName']") ;
-    By emailInputTextField = By.xpath("//input[@id = 'Email']") ;
-    By passwordInputTextField = By.xpath("//input[@id = 'Password']") ;
-    By confirmPasswordInputTextField = By.xpath("//input[@id = 'ConfirmPassword']") ;
-    By registerButton = By.xpath("//button[@id = 'register-button']") ;
-    By genderRadioButtons = By.xpath("//div[@id = 'gender']//input") ;
-    By birthDaySelectDropdownList = By.xpath("//select[@name = 'DateOfBirthDay']") ;
-    By birthMonthSelectDropDownList = By.xpath("//select[@name = 'DateOfBirthMonth']") ;
-    By birthYearSelectDropDownList = By.xpath("//select[@name = 'DateOfBirthYear']") ;
-    By newsLetterCheckBox = By.xpath("//input [@id = 'Newsletter']") ;
-    By companyNameInputTextField = By.xpath("//input [@id = 'Company']") ;
-    By firstNameErrorMessageText = By.xpath("//span[@id = 'FirstName-error']") ;
+    private By firstNameInputTextField = By.xpath("//input[@id = 'FirstName']") ;
+    private By lastNameInputTextField = By.xpath("//input[@id = 'LastName']") ;
+    private By emailInputTextField = By.xpath("//input[@id = 'Email']") ;
+    private By passwordInputTextField = By.xpath("//input[@id = 'Password']") ;
+    private By confirmPasswordInputTextField = By.xpath("//input[@id = 'ConfirmPassword']") ;
+    private By registerButton = By.xpath("//button[@id = 'register-button']") ;
+    private By genderRadioButtons = By.xpath("//div[@id = 'gender']//input") ;
+    private By birthDaySelectDropdownList = By.xpath("//select[@name = 'DateOfBirthDay']") ;
+    private By birthMonthSelectDropDownList = By.xpath("//select[@name = 'DateOfBirthMonth']") ;
+    private By birthYearSelectDropDownList = By.xpath("//select[@name = 'DateOfBirthYear']") ;
+    private By newsLetterCheckBox = By.xpath("//input [@id = 'Newsletter']") ;
+    private By companyNameInputTextField = By.xpath("//input [@id = 'Company']") ;
+    private By firstNameErrorMessageText = By.xpath("//span[@id = 'FirstName-error']") ;
     public RegisterPage(WebDriver driver) {
         super(driver);
     }

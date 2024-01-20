@@ -8,8 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,25 +37,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.NopCommerceTesting [clean].executor": "Run",
-    "Maven.NopCommerceTesting [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.LoginPageTest.executor": "Run",
-    "TestNG.LoginPageTest.test001.executor": "Run",
-    "TestNG.RegisterPageTest.executor": "Run",
-    "TestNG.RegisterPageTest.test001.executor": "Run",
-    "TestNG.RegisterPageTest.test002.executor": "Run",
-    "TestNG.SampleTest.executor": "Run",
-    "TestNG.SampleTest.test1.executor": "Run",
-    "TestNG.SampleTest.test2.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.NopCommerceTesting [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.NopCommerceTesting [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.LoginPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginPageTest.test001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterPageTest.test001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegisterPageTest.test002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SampleTest.test2.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.LoginPageTest">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
@@ -94,12 +92,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterPageTest.test001" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegisterPageTest" />
-      <option name="METHOD_NAME" value="test001" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -121,17 +118,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.RegisterPageTest" />
+        <item itemvalue="TestNG.RegisterPageTest.test002" />
         <item itemvalue="TestNG.LoginPageTest.test002" />
         <item itemvalue="TestNG.LoginPageTest.test001" />
-        <item itemvalue="TestNG.RegisterPageTest.test001" />
-        <item itemvalue="TestNG.RegisterPageTest.test002" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.9-corretto-17.0.9-e1d2075fd9a7-f66d43ae" />
       </set>
     </attachedChunks>
   </component>
@@ -229,11 +226,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/SampleTest.java</url>
           <line>37</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RegisterPageTest.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
