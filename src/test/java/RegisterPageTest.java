@@ -8,7 +8,6 @@ public class RegisterPageTest extends BaseTest{
     // positive scenario
     @Test
     public void test001(){
-        HomePage homePage = new HomePage(driver) ;
         homePage.clickOnRegisterHeaderButton();
         RegisterPage registerPage = new RegisterPage(driver) ;
         registerPage.enterTextInFirstNameInputTextField("ziad");
@@ -32,7 +31,6 @@ public class RegisterPageTest extends BaseTest{
     // leave first name field empty
     @Test
     public void test002(){
-        HomePage homePage = new HomePage(driver) ;
         homePage.clickOnRegisterHeaderButton();
         RegisterPage registerPage = new RegisterPage(driver) ;
         registerPage.enterTextInLastNameInputTextField("moftah");
