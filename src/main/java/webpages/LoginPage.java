@@ -50,4 +50,14 @@ public class LoginPage extends BasePage{
         driverWait.until(ExpectedConditions.visibilityOfElementLocated(emailErrorMessageText)) ;
         return driver.findElement(emailErrorMessageText).getText() ;
     }
+    public void fillLogInData(String email , String password , Boolean rememberMe){
+        this.enterTextInEmailTextField(email);
+        this.enterTextInPasswordTextField(password);
+        if ( rememberMe ){
+            this.checkRememberMeCheckBox();
+        }
+        else {
+            this.unCheckRememberMeCheckBox();
+        }
+    }
 }

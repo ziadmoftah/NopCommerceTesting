@@ -11,9 +11,7 @@ public class LoginPageTest extends BaseTest{
     public void test001(){
         homePage.clickOnLoginHeaderButton();
         LoginPage loginPage = new LoginPage(driver) ;
-        loginPage.enterTextInEmailTextField("acb@gmail.com");
-        loginPage.enterTextInPasswordTextField("123456");
-        loginPage.checkRememberMeCheckBox();
+        loginPage.fillLogInData("acb@gmail.com" , "123456" , true);
         loginPage.clickOnLogInButton();
         softAssert.assertTrue(homePage.isUserLoggedIn());
         softAssert.assertAll();
@@ -22,8 +20,7 @@ public class LoginPageTest extends BaseTest{
     public void test002(){
         homePage.clickOnLoginHeaderButton();
         LoginPage loginPage = new LoginPage(driver) ;
-        loginPage.enterTextInPasswordTextField("123456");
-        loginPage.checkRememberMeCheckBox();
+        loginPage.fillLogInData( "" , "123456" ,  true);
         loginPage.clickOnLogInButton();
         softAssert.assertEquals(loginPage.getEmailErrorMessageText() , "Please enter your email");
         softAssert.assertAll();
