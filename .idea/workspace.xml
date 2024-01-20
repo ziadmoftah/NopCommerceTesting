@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Update Access Modifier for Class LoginPage.java and RegisterPage.java">
+    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Add two header buttons(Log Out - My Account) to BasePage.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,10 +118,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.LoginPageTest.test001" />
         <item itemvalue="TestNG.RegisterPageTest" />
         <item itemvalue="TestNG.RegisterPageTest.test002" />
         <item itemvalue="TestNG.LoginPageTest.test002" />
-        <item itemvalue="TestNG.LoginPageTest.test001" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705758244234</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add two header buttons(Log Out - My Account) to BasePage.java">
+      <option name="closed" value="true" />
+      <created>1705758663485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705758663485</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -223,7 +234,8 @@
     <MESSAGE value="Create RegisterPage and Add sample test for it in SampleTest" />
     <MESSAGE value="Create RegisterPageTest.java" />
     <MESSAGE value="Update Access Modifier for Class LoginPage.java and RegisterPage.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Access Modifier for Class LoginPage.java and RegisterPage.java" />
+    <MESSAGE value="Add two header buttons(Log Out - My Account) to BasePage.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add two header buttons(Log Out - My Account) to BasePage.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

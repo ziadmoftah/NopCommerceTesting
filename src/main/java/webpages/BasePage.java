@@ -38,4 +38,8 @@ public class BasePage {
         driverWait.until(ExpectedConditions.elementToBeClickable(loginHeaderButton)) ;
         driver.findElement(logOutHeaderButton).click();
     }
+    public Boolean isUserLoggedIn(){
+        driverWait.until(ExpectedConditions.visibilityOfElementLocated(myAccountHeaderButton)) ;
+        return driver.findElement(myAccountHeaderButton).getText().equals("My account")  ;
+    }
 }
