@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Create RegisterPageTest.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterPageTest.java" afterDir="false" />
+    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Update Access Modifier for Class LoginPage.java and RegisterPage.java">
+      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/BasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705605683483</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update Access Modifier for Class LoginPage.java and RegisterPage.java">
+      <option name="closed" value="true" />
+      <created>1705758244234</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705758244234</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,7 +222,8 @@
     <MESSAGE value="Create BaseTest Class" />
     <MESSAGE value="Create RegisterPage and Add sample test for it in SampleTest" />
     <MESSAGE value="Create RegisterPageTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create RegisterPageTest.java" />
+    <MESSAGE value="Update Access Modifier for Class LoginPage.java and RegisterPage.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Access Modifier for Class LoginPage.java and RegisterPage.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

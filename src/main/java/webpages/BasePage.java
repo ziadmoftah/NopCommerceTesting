@@ -14,6 +14,8 @@ public class BasePage {
     By registerHeaderButton = By.xpath("//a[@class = 'ico-register']") ;
     By loginHeaderButton = By.xpath("//a[@class = 'ico-login']");
 
+    By myAccountHeaderButton = By.xpath("//a[@class = 'ico-account']") ;
+    By logOutHeaderButton = By.xpath("//a[@class = 'ico-logout']") ;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -26,5 +28,14 @@ public class BasePage {
     public void clickOnRegisterHeaderButton(){
         driverWait.until(ExpectedConditions.elementToBeClickable(registerHeaderButton)) ;
         driver.findElement(registerHeaderButton).click();
+    }
+
+    public void clickOnMyAccountHeaderButton(){
+        driverWait.until(ExpectedConditions.elementToBeClickable(myAccountHeaderButton)) ;
+        driver.findElement(myAccountHeaderButton).click();
+    }
+    public void clickOnLogOutHeaderButton(){
+        driverWait.until(ExpectedConditions.elementToBeClickable(loginHeaderButton)) ;
+        driver.findElement(logOutHeaderButton).click();
     }
 }
