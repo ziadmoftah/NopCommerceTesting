@@ -11,7 +11,6 @@ import webpages.HomePage;
 
 public class BaseTest {
     WebDriver driver ;
-    WebDriverWait driverWait ;
     HomePage homePage ;
     SoftAssert softAssert ;
     @BeforeMethod
