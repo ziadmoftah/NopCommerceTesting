@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Add BrowserSetup.java and modify BaseTest.java accordingly">
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="ecb5fb9b-a50e-459f-ac2e-3724359109b4" name="Changes" comment="Add testing.xml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataProviderLogInTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ParametrizedLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webpages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,31 +43,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.NopCommerceTesting [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.NopCommerceTesting [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.LoginPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPageTest.test001.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginPageTest.test002.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegisterPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegisterPageTest.test001.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegisterPageTest.test002.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SampleTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SampleTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SampleTest.test2.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.NopCommerceTesting [clean].executor": "Run",
+    "Maven.NopCommerceTesting [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/KK/IdeaProjects/NopCommerceTesting/testng.xml.executor": "Run",
+    "TestNG.DataProviderLogInTest.VerifyNotLoggedInWhenInvalidData.executor": "Run",
+    "TestNG.DataProviderLogInTest.executor": "Run",
+    "TestNG.LoginPageTest.executor": "Run",
+    "TestNG.LoginPageTest.test001.executor": "Run",
+    "TestNG.LoginPageTest.test002.executor": "Run",
+    "TestNG.RegisterPageTest.executor": "Run",
+    "TestNG.RegisterPageTest.test001.executor": "Run",
+    "TestNG.RegisterPageTest.test002.executor": "Run",
+    "TestNG.SampleTest.executor": "Run",
+    "TestNG.SampleTest.test1.executor": "Run",
+    "TestNG.SampleTest.test2.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.C:/Users/KK/IdeaProjects/NopCommerceTesting/testng.xml">
+}]]></component>
+  <component name="RunManager" selected="TestNG.DataProviderLogInTest.VerifyNotLoggedInWhenInvalidData">
     <configuration name="C:/Users/KK/IdeaProjects/NopCommerceTesting/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -75,11 +81,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderLogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopCommerceTesting" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
+      <option name="MAIN_CLASS_NAME" value="DataProviderLogInTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderLogInTest.VerifyNotLoggedInWhenInvalidData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NopCommerceTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataProviderLogInTest" />
+      <option name="METHOD_NAME" value="VerifyNotLoggedInWhenInvalidData" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -91,18 +109,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
       <option name="METHOD_NAME" value="test001" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest.test002" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NopCommerceTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
-      <option name="METHOD_NAME" value="test002" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DataProviderLogInTest.VerifyNotLoggedInWhenInvalidData" />
+        <item itemvalue="TestNG.RegisterPageTest.test001" />
+        <item itemvalue="TestNG.DataProviderLogInTest" />
         <item itemvalue="TestNG.C:/Users/KK/IdeaProjects/NopCommerceTesting/testng.xml" />
         <item itemvalue="TestNG.LoginPageTest.test001" />
-        <item itemvalue="TestNG.RegisterPageTest.test001" />
-        <item itemvalue="TestNG.LoginPageTest.test002" />
-        <item itemvalue="TestNG.LoginPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,8 +282,27 @@
       <option name="project" value="LOCAL" />
       <updated>1705767439941</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add testing.xml">
+      <option name="closed" value="true" />
+      <created>1706364247458</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706364247458</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project and Add Dependencies" />
@@ -296,7 +321,8 @@
     <MESSAGE value="Add BrowserActions.java class" />
     <MESSAGE value="Modify RegisterPage.java using the BrowserActions.java class methods" />
     <MESSAGE value="Add BrowserSetup.java and modify BaseTest.java accordingly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add BrowserSetup.java and modify BaseTest.java accordingly" />
+    <MESSAGE value="Add testing.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add testing.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

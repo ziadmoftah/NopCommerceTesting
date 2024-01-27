@@ -2,19 +2,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/KK/IdeaProjects/NopCommerceTesting">
+        <parameter name="username" value="acb@gmail.com"/>
+        <parameter name="password" value="123456"/>
         <classes>
             <class name="RegisterPageTest">
                 <methods>
                     <include name="test001"/>
-                    <include name="test002"/>
                 </methods>
             </class>
-            <class name="LoginPageTest">
+            <class name="ParametrizedLoginTest">
                 <methods>
-                    <include name="test001"/>
-                    <include name="test002"/>
+                    <include name="logInUsingValidCredentials"/>
                 </methods>
             </class>
+
         </classes>
     </test>
 </suite>

@@ -14,6 +14,7 @@ public class LoginPage extends BasePage{
     private By rememberMeCheckBox = By.xpath("//input[@id = 'RememberMe']") ;
     private By logInButton = By.xpath("//button[@class = 'button-1 login-button']") ;
     private By emailErrorMessageText = By.xpath("//span[@id = 'Email-error']") ;
+    private By unsuccessfullLoginErrorMessageText = By.xpath("//div[@class = 'message-error validation-summary-errors']") ;
     public LoginPage(WebDriver driver) {
         super(driver);
 
@@ -46,5 +47,9 @@ public class LoginPage extends BasePage{
         else {
             this.unCheckRememberMeCheckBox();
         }
+    }
+
+    public String getUnsuccessfullLoginErrorMessageText() {
+        return BrowserActions.getElementText(unsuccessfullLoginErrorMessageText , driver) ;
     }
 }
